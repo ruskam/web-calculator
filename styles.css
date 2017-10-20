@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Courier New, Courier, monospace;
+}
+
+#calculator {
+    background-image: url('https://source.unsplash.com/kktq8zzmPEo/1600x900');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-area {
+    border: #A9A9A9 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    /*height: 400px;*/
+    color: #ffffff;
+    background: #35424a;
+    border-radius: 20px;
+    min-height: 400px;
+}
+
+#calc-title {
+    padding: 20px 20px;
+}
+
+.display {
+    font-size: 25px;
+    width: 260px;
+    height: 30px;
+    border-radius: 5px;
+    background: #ffffff;
+    color: black;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#result {
+    font-size: 25px;
+    width: 260px;
+    height: 30px;
+    border-radius: 5px;
+    background: #ffffff;
+    color: black;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#hints {
+    font-size: 15px;
+    color: #D3D3D3;
+}
+
+.all-buttons {
+    font-size: 15px;
+    width: 55px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+    background-color: #696969;
+    border-radius: 5px;
+    box-shadow: 0 7px #4d4d4d;
+    vertical-align: top;
+}
+
+.button {
+    margin: 7px 2px;
+}
+
+.all-buttons:hover {
+    background-color: #4d4d4d;
+}
+
+.all-buttons:active {
+    background-color: #4d4d4d;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+
+.button-result {
+    /*padding: 45px 18px;*/
+    height: 95px;
+    margin: 7px 2px;
+    color: #ffffff;
+    background-color: #696969;
+    border-radius: 5px;
+}
+
+.fifth-row {
+    margin-top: -55px;
+    margin-left: -69px;
+}
+
+.button-zero {
+    padding: 10px 60px;
+    margin: 7px 2px;
+    color: #ffffff;
+    background-color: #696969;
+    border-radius: 5px;
+}
+
+.clear-button {
+    background-color: #BD0048;
+}
+
+.clear-button:hover {
+    background-color: #960039;
+}
+
+.clear-button:active {
+    background-color: #960039;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+
+.copyright {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: silver;
+}

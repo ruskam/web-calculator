@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section id="calculator">
+        <div class="main-area">
+            <div id="calc-title">ONLINE CALCULATOR</div>
+            <div class="display">
+                <!--div id="result">0</div-->
+                <input type="text" name="calc-input" id="result" value='0' readonly>
+                <!--div id="hints">hints</div-->
+            </div>
+
+            <div class="first-row">
+                <button class="all-buttons button clear-button" id='ac' onclick="clearAll()">AC</button>
+                <button class="all-buttons button clear-button" id='ac' onclick="clearEntry()">CE</button>
+                <button class="all-buttons button sign" id='ac' data-sign="/">/</button>
+                <button class="all-buttons button sign" id='ac' data-sign="*">X</button>
+            </div>
+            <div class="second-row">
+                <button class="all-buttons button press" id='ac' data-number="7">7</button>
+                <button class="all-buttons button press" id='ac' data-number="8">8</button>
+                <button class="all-buttons button press" id='ac' data-number="9">9</button>
+                <button class="all-buttons button sign" id='ac' data-sign="-">-</button>
+            </div>
+            <div class="third-row">
+                <button class="all-buttons button press" id='ac' data-number="4">4</button>
+                <button class="all-buttons button press" id='ac' data-number="5">5</button>
+                <button class="all-buttons button press" id='ac' data-number="6">6</button>
+                <button class="all-buttons button sign" id='plus' data-sign="+">+</button>
+            </div>
+
+            <div class="fourth-row">
+                <button class="all-buttons button press" id='ac' data-number="1">1</button>
+                <button class="all-buttons button press" id='ac' data-number="2">2</button>
+                <button class="all-buttons button press" id='ac' data-number="3">3</button>
+                <button class="all-buttons button-result" id='ac' onclick="calc()">=</button>
+            </div>
+            <div class="fifth-row">
+                <button class="all-buttons button-zero press" id='ac' data-number="0">0</button>
+
+                <button class="all-buttons button press" id='ac' data-number=".">.</button>
+
+            </div>
+
+
+
+
+        </div>
+        <div class="copyright">
+            <p>designed and coded by <a href="http://kamberov.me" target="_blank">Rustam Kamberov</a> </p><br>
+            <p>background image by <a href="https://unsplash.com/@thepip?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+                    target="_blank" rel="noopener noreferrer">Francisco Gomes</span></a></p>
+        </div>
+
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
